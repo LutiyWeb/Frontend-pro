@@ -5,11 +5,10 @@ userSkills = prompt('Ok. What skills do you have');
 
 alert('So. Your name is ' + userName + '. ' + 'You are ' + userAge  + '.' + ' ' + 'And rou like to ' + userSkills);
 
-//Secondary task
 userNumber = 25588;
 alert(userNumber.toString().replaceAll('', ' '));
 
-Thirty
+//Secondary task
 thirstUserValue = +prompt('Plese enter thirst value');
 secondaryUserValue = +prompt('Plese enter secondary value');
 result = thirstUserValue + secondaryUserValue
@@ -19,7 +18,8 @@ minus = `${thirstUserValue} - ${secondaryUserValue} = ${result}`;
 multiply = `${thirstUserValue} * ${secondaryUserValue} = ${result}`;
 division = `${thirstUserValue} * ${secondaryUserValue} = ${result}`;
 
-//Third task
+
+// Thirty task
 alert(`
        ${sum}
        ${minus}
@@ -27,7 +27,7 @@ alert(`
        ${division}
        `)
 
-//Thours task
+//Third task
 hoursValue = +prompt('Enter plese random hours');
 secondaryValue = hoursValue * 60;
 alert(secondaryValue);
